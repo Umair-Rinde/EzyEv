@@ -1,4 +1,4 @@
-import { BaseRepository } from "@app/common/generics/baseRepository";
+import { BaseRepository } from "@app/common/generics/base.repository";
 import { IRepository } from "@app/common/generics/interface/repository.interface";
 import { FacetEntity } from "@app/database";
 import { InjectRepository } from "@nestjs/typeorm";

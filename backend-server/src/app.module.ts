@@ -14,7 +14,6 @@ import { LoggerModule } from 'nestjs-pino';
 import { SeedModule } from './seed/seed.module';
 import { OrderModule } from './order/order.module';
 import { KycModule } from './kyc/kyc.module';
-import { FacetModule } from './facet/facet.module';
 import { BaseModule } from '@app/common/generics/base.module';
 
 @Module({
@@ -45,7 +44,6 @@ import { BaseModule } from '@app/common/generics/base.module';
         SeedModule,
         OrderModule,
         KycModule,
-        FacetModule,
         BaseModule
         
     ],
